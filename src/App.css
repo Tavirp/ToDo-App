@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -13,18 +13,27 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Appheader {
+  /* background-color: #282c34;  */
+  min-height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
+.npmstuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 250px;
+  /* background-color: #61fba1; */
+}
+
+.Applink {
   color: #61dafb;
 }
 
