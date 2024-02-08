@@ -5,9 +5,9 @@ import styles from "./NavbarBottom.module.css";
 function NavBarBottom() {
   return (
     <div className={styles.bottomContainer}>
-      <StandardBtn text={"Undefined"} />
+      <StandardBtn text={"Nodefall-Button"} />
       <div className={styles.spacer} />
-      <StandardBtn text={"Don't know yet"} />
+      <StandardBtn text={"Info"} />
       <div className={styles.spacer} />
       <StandardBtn text={"Contact"} />
       <div className={styles.spacer} />
