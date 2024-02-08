@@ -19,19 +19,64 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.npmstuff {
+
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 250px;
-  /* background-color: #61fba1; */
+  height: 48vw;
+  width: 50%;
+  /* background-color: #fb617d; */
 }
+
+.spacerContainer {
+  display: flex;
+  height: 20px;
+  width: 100%;
+  /* background-color: #268a50; */
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35vw;
+  width: 100%;
+  border-radius: 10%;
+  background-color: #7561fb72;
+}
+
+.bottomTitel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 35%;
+  margin-top: 15px;
+  /* border-radius: 10px 10px 0 0; */
+  border-style: solid;
+  border-width: 4px;
+  border-color: #000000c0;
+  background-color: #daff4554;
+}
+
+.bottomContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:130px;
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  background-color: #daff4554;
+}
+
+
 
 .Applink {
   color: #61dafb;

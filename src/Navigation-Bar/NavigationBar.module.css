@@ -1,11 +1,12 @@
 
 
-.mainContainer{
+.navContainer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 45vw;      
-    width: 15%;      
+    width: 12%;      
     margin-left: 0%;
     padding: 15px;
     background-color: var(--sec-bg-color);

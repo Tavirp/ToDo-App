@@ -1,17 +1,20 @@
-import styles from './NavigationBar.module.css'
-import LoginBtn from './LoginButton/LoginBtn';
-import SignupBtn from './SignupButton/SignupBtn';
 
+import StandardBtn from "../../Stuff/Buttons/StdBtn";
+import styles from "./NavbarBottom.module.css";
 
-function NavBottom() {
-    return (
-<div className={styles.pagescontainer}>
-
-                <LoginBtn/>
-                <SignupBtn/>
-                
-</div>
+function NavBarBottom() {
+  return (
+    <div className={styles.bottomContainer}>
+      <StandardBtn text={"Undefined"} />
+      <div className={styles.spacer} />
+      <StandardBtn text={"Don't know yet"} />
+      <div className={styles.spacer} />
+      <StandardBtn text={"Contact"} />
+      <div className={styles.spacer} />
+      <StandardBtn text={"Impressum"} />
+      <div className={styles.spacer} />
+    </div>
   );
 }
 
-export default NavBottom;
+export default NavBarBottom;

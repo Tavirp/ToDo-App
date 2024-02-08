@@ -1,17 +1,18 @@
-import styles from './NavigationBar.module.css'
-import LoginBtn from './LoginButton/LoginBtn';
-import SignupBtn from './SignupButton/SignupBtn';
+import StandardBtn from "../../Stuff/Buttons/StdBtn";
+import styles from "./NavbarTop.module.css";
+import UsrIcon from "../../Stuff/UsrIcon";
 
-
-function NavTop() {
-    return (
-<div className={styles.doppelfrosch}>
-
-                <LoginBtn/>
-                <SignupBtn/>
-                
-</div>
+function NavBarTop() {
+  return (
+    <div className={styles.topContainer}>
+      <div className={styles.spacer} />  
+        <UsrIcon />
+      <div className={styles.spacer} />
+        <StandardBtn text={"Login"} />
+      <div className={styles.spacer} />
+        <StandardBtn text={"Sign Up"} />
+    </div>
   );
 }
 
-export default NavTop;
+export default NavBarTop;

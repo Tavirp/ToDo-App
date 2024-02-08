@@ -3,12 +3,9 @@ import React, { useState } from 'react';
 
 // import PasswordChecklist from 'react-password-checklist';
 
-// const Login = () => {
+const Login = () => {
 
 
-
-
-function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [rememberMe, setRememberMe] = useState(false);
